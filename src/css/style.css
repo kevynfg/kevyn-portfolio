@@ -1,0 +1,239 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+  --header-height: 3rem;
+  --nav-width: 324px;
+
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  --first-color-background: #3c2f2f;
+  --first-color-darken: #4b3832;
+  --first-color-darklight: #854442;
+  --first-color-light: #be9b7b;
+  --text-color: #fff4e6;
+
+  --body-font: 'VT323', sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  /* MARGIN BOTTONS */
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+
+  --z-fixed: 100;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  background-color: var(--first-color-background);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h3 {
+  font-weight: var(--font-semi-bold);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* HOME CONTAINER */
+.home__container {
+  height: calc(70vh - var(--header-height));
+  align-items: center;
+}
+
+.home__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  text-align: center;
+}
+
+.home__img {
+  padding-top: 1.3rem;
+  padding-left: 0.8rem;
+  width: 160px;
+  height: 140px;
+  background-color: var(--first-color-darklight);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: var(--mb-2);
+}
+
+.home__img img {
+  width: 145px;
+}
+
+.home__title {
+  font-size: var(--h1-font-size);
+  color: var(--first-color-light);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: var(--mb-1);
+}
+
+.home__profession {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  margin-bottom: var(--mb-1);
+}
+
+.home__social-link {
+  display: inline-flex;
+  background-color: var(--first-color-darklight);
+  color: var(--first-color-light);
+  font-size: 1.1rem;
+  border-radius: 50%;
+  padding: 0.4rem;
+  margin: 0 var(--mb-1);
+  transition: 0.3s;
+}
+
+.home__social-link:hover {
+  background-color: var(--first-color-darken);
+}
+
+/* BUTTONS */
+.button {
+  display: inline-block;
+  background-color: var(--first-color-darklight);
+  color: var(--text-color);
+  padding: 1rem 2rem;
+  margin: var(--mb-2);
+  font-weight: var(--font-semi-bold);
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: var(--first-color-darken);
+}
+
+/* SOBRE MIM */
+
+.about__container {
+  row-gap: 2rem;
+}
+
+.about__data {
+  text-align: center;
+}
+
+.about__description {
+  margin-bottom: var(--mb-4);
+}
+
+/* FORMAÇÃO/EDUCAÇÃO */
+
+.education__intro {
+  text-align: center;
+  margin-top: var(--mb-3);
+  margin-bottom: var(--mb-1);
+}
+
+.education__container {
+  row-gap: 2rem;
+}
+
+.education__content {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+}
+
+.education__year,
+.education__race {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.25rem;
+}
+
+.education__university,
+.education__specialty {
+  display: block;
+  font-size: var(--smaller-font-size);
+}
+
+.education__year,
+.education__university {
+  text-align: right;
+}
+
+.education__time {
+  padding: 0 1rem;
+  justify-self: center;
+}
+
+.education__rounder {
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: var(--first-color-darklight);
+  border-radius: 50%;
+}
+
+.education__rounder::before {
+  content: '';
+  position: absolute;
+  transform: translate(-5px, -5px);
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--first-color-darklight);
+  border-radius: 50%;
+}
+
+.education__line {
+  display: block;
+  height: 90%;
+  width: 2px;
+  background-color: var(--first-color-darklight);
+  transform: translate(5px, -4px);
+}
