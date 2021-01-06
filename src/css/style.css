@@ -87,7 +87,7 @@ img {
 
 /* HOME CONTAINER */
 .home__container {
-  height: calc(70vh - var(--header-height));
+  /* height: calc(100vh - var(--header-height)); */
   align-items: center;
 }
 
@@ -148,7 +148,7 @@ img {
   background-color: var(--first-color-darklight);
   color: var(--text-color);
   padding: 1rem 2rem;
-  margin: var(--mb-2);
+  margin: var(--mb-5);
   font-weight: var(--font-semi-bold);
   border-radius: 0.5rem;
   transition: 0.3s;
@@ -168,8 +168,15 @@ img {
   text-align: center;
 }
 
+.description__div {
+  position: relative;
+  left: 24%;
+  width: 55%;
+}
+
 .about__description {
   margin-bottom: var(--mb-4);
+  text-align: justify;
 }
 
 /* FORMAÇÃO/EDUCAÇÃO */
