@@ -295,6 +295,29 @@ img {
 
 .works__img:hover .works__data {
   bottom: 0;
+  animation-name: moodtation;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes moodtation {
+  0% {
+    background-image: url('/src/img/moodtation_project2.jpg');
+    background-size: cover;
+  }
+  25% {
+    background-image: url('/src/img/moodtation_project2.jpg');
+    background-size: cover;
+  }
+  50% {
+    background-image: url('/src/img/moodtation_project3.jpg');
+    background-size: cover;
+  }
+  100% {
+    background-image: url('/src/img/moodtation_project3.jpg');
+    background-size: cover;
+  }
 }
 
 .works__intro {
