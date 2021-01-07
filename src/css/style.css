@@ -89,10 +89,10 @@ img {
 }
 
 .home__img {
-  padding-top: 1.3rem;
-  padding-left: 0.8rem;
-  width: 160px;
-  height: 140px;
+  padding-top: 0rem;
+  padding-left: 0rem;
+  width: 145px;
+  height: 155px;
   background-color: var(--first-color-darken);
   border-radius: 50%;
   overflow: hidden;
