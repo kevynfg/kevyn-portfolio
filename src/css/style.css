@@ -360,6 +360,12 @@ img {
   }
 }
 
+@media screen and (min-width: 420px) {
+  .about__description {
+    font-size: 1.1rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .home__button {
     width: initial;
