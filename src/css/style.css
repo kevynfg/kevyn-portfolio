@@ -360,7 +360,7 @@ img {
   }
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (max-width: 560px) {
   .about__description {
     font-size: 1.1rem;
   }
