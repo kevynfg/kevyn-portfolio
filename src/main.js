@@ -2,13 +2,18 @@ let templateForLanguage = document.querySelector('#container')
 function init() {
   const brazilFlag = document.querySelector('.flag-brazil')
   const usaFlag = document.querySelector('.flag-usa')
+  let header = document.querySelector('header')
   brazilFlag.addEventListener('click', () => {
+    header.innerHTML = ''
+    header.innerHTML += header.innerHTML + 'Escolha um idioma'
     usaFlag.classList.remove('active')
     brazilFlag.classList.add('active')
     templateForLanguage.innerHTML = ''
     templateForLanguage.innerHTML += templateForLanguage.innerHTML + templates.ptbrTemplate()
   })
   usaFlag.addEventListener('click', () => {
+    header.innerHTML = ''
+    header.innerHTML += 'Choose a language'
     brazilFlag.classList.remove('active')
     usaFlag.classList.add('active')
     templateForLanguage.innerHTML = ''
