@@ -2,7 +2,11 @@
   "name": "kevyn-portfolio",
   "version": "1.0.0",
   "description": "personal portfolio",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/main.js",
+  "engines": {
+    "node": "16.14.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

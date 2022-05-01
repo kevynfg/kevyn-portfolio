@@ -23,7 +23,7 @@
   --small-font-size: 1.2rem;
   --smaller-font-size: 1rem;
 
-  /* MARGIN BOTTONS */
+  /* MARGIN BUTTONS */
   --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
@@ -345,6 +345,23 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
   color: var(--text-color);
+}
+
+.header-language {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: end;
+  margin-right: 2rem;
+}
+
+.language-flags img  {
+  display: inline-block !important
+}
+
+.language-flags a {
+  margin-left: 10px;
+  display: inline-block;
 }
 
 /* === MEDIA QUERIES === */
