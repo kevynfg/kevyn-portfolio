@@ -45,7 +45,7 @@ const templates = {
       <section class="about section" id="about">
         <div class="about__container bd-grid">
           <div class="about__data">
-            <span class="section-subtitle">{ERROR: INTRO NOT FOUND}</span>
+            <span class="section-subtitle">{SUCCESS: TRUE, MESSGE: INTRO FOUND}</span>
             <h2 class="section-title PTBR">Sobre mim</h2>
             <div class="description__div">
               <p class="about__description PTBR">
@@ -154,82 +154,7 @@ const templates = {
           <a href="" class="button"></a>
         </div>
       </div>
-    </section> -->
-  
-      <!-- PROJETOS -->
-      <section class="works section">
-        <div class="works__intro">
-          <span class="section-subtitle">Meu Portfólio</span>
-          <h2 class="section-title">Projetos Recentes</h2>
-        </div>
-  
-        <div class="works__container">
-          <div class="works__img">
-            <a target="blank" href="https://kevynfg.github.io/moodtation/" class="works__link">
-              <img src="./src/img/project-moodtation.png" alt="Projeto Moodtation" />
-  
-              <div class="works__data">
-                <i class="bx bx-link-alt"></i>
-                <span class="works__title">Moodtation</span>
-              </div>
-            </a>
-          </div>
-  
-          <div class="works__img">
-            <a target="blank" href="https://github.com/kevynfg/bootcamp-interest-project" class="works__link">
-              <img src="./src/img/project_interest.png" alt="Projeto Juros Composto" />
-  
-              <div class="works__data">
-                <i class="bx bx-link-alt"></i>
-                <span class="works__title">Juros Composto</span>
-              </div>
-            </a>
-          </div>
-  
-          <div class="works__img">
-            <a target="blank" href="https://github.com/kevynfg/bootcamp-salary-project" class="works__link">
-              <img src="./src/img/project_salary.png" alt="Projeto Salário e Descontos" />
-  
-              <div class="works__data">
-                <i class="bx bx-link-alt"></i>
-                <span class="works__title">Descontos no Salário</span>
-              </div>
-            </a>
-          </div>
-  
-          <div class="works__img">
-            <a target="blank" href="https://github.com/kevynfg/bootcamp-app-voting" class="works__link">
-              <img src="./src/img/project-voting-app.png" alt="Projeto de Votação Automática" />
-  
-              <div class="works__data">
-                <i class="bx bx-link-alt"></i>
-                <span class="works__title">Voting App</span>
-              </div>
-            </a>
-          </div>
-  
-          <div class="works__img">
-            <a target="blank" href="https://github.com/kevynfg/bootcamp-grade-control-api" class="works__link">
-              <img src="./src/img/project-grade-control.png" alt="Projeto Controle de Notas" />
-  
-              <div class="works__data">
-                <i class="bx bx-link-alt"></i>
-                <span class="works__title">Controle de Notas</span>
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
-  
-      <!-- === FOOTER === -->
-      <footer class="footer section">
-        <div class="footer__container bd-grid">
-          <h1 class="footer__title">Info</h1>
-          <p class="footer_description">Eu sou o Kevyn e este é meu portfólio pessoal.</p>
-  
-          <p class="footer__copy">All right reserved by @Kevyn - 2021</p>
-        </div>
-      </footer>`
+    </section> -->`
   },
   enTemplate: function () {
     return `
@@ -254,7 +179,7 @@ const templates = {
           <section class="about section" id="about">
             <div class="about__container bd-grid">
               <div class="about__data">
-                <span class="section-subtitle">{ERROR: INTRO NOT FOUND}</span>
+                <span class="section-subtitle">{SUCCESS: TRUE, MESSGE: INTRO FOUND}</span>
                 <h2 class="section-title EN">About me</h2>
                 <div class="description__div">
                   <p class="about__description EN">
@@ -363,82 +288,7 @@ const templates = {
               <a href="" class="button"></a>
             </div>
           </div>
-        </section> -->
-      
-          <!-- PROJETOS -->
-          <section class="works section">
-            <div class="works__intro">
-              <span class="section-subtitle">My Portfolio</span>
-              <h2 class="section-title">Recent Projects</h2>
-            </div>
-      
-            <div class="works__container">
-              <div class="works__img">
-                <a target="blank" href="https://kevynfg.github.io/moodtation/" class="works__link">
-                  <img src="./src/img/project-moodtation.png" alt="Projeto Moodtation" />
-      
-                  <div class="works__data">
-                    <i class="bx bx-link-alt"></i>
-                    <span class="works__title">Moodtation</span>
-                  </div>
-                </a>
-              </div>
-      
-              <div class="works__img">
-                <a target="blank" href="https://github.com/kevynfg/bootcamp-interest-project" class="works__link">
-                  <img src="./src/img/project_interest.png" alt="Project Compound Interest" />
-      
-                  <div class="works__data">
-                    <i class="bx bx-link-alt"></i>
-                    <span class="works__title">Compound Interest</span>
-                  </div>
-                </a>
-              </div>
-      
-              <div class="works__img">
-                <a target="blank" href="https://github.com/kevynfg/bootcamp-salary-project" class="works__link">
-                  <img src="./src/img/project_salary.png" alt="Project Salary and Discount" />
-      
-                  <div class="works__data">
-                    <i class="bx bx-link-alt"></i>
-                    <span class="works__title">Salary and Discount</span>
-                  </div>
-                </a>
-              </div>
-      
-              <div class="works__img">
-                <a target="blank" href="https://github.com/kevynfg/bootcamp-app-voting" class="works__link">
-                  <img src="./src/img/project-voting-app.png" alt="Project Auto Voting" />
-      
-                  <div class="works__data">
-                    <i class="bx bx-link-alt"></i>
-                    <span class="works__title">Voting App</span>
-                  </div>
-                </a>
-              </div>
-      
-              <div class="works__img">
-                <a target="blank" href="https://github.com/kevynfg/bootcamp-grade-control-api" class="works__link">
-                  <img src="./src/img/project-grade-control.png" alt="Project banknotes managing" />
-      
-                  <div class="works__data">
-                    <i class="bx bx-link-alt"></i>
-                    <span class="works__title">Banknotes Managing</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </section>
-      
-          <!-- === FOOTER === -->
-          <footer class="footer section">
-            <div class="footer__container bd-grid">
-              <h1 class="footer__title">Info</h1>
-              <p class="footer_description">I'm Kevyn and this is me personal Portfolio.</p>
-      
-              <p class="footer__copy">All right reserved by @Kevyn - 2021</p>
-            </div>
-          </footer>`
+        </section> -->`
   },
 }
 
