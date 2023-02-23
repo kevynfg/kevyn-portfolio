@@ -45,7 +45,7 @@ const templates = {
       <section class="about section" id="about">
         <div class="about__container bd-grid">
           <div class="about__data">
-            <span class="section-subtitle">{SUCCESS: TRUE, MESSGE: INTRO FOUND}</span>
+            <span class="section-subtitle">{SUCCESS: TRUE, MESSAGE: INTRO FOUND}</span>
             <h2 class="section-title PTBR">Sobre mim</h2>
             <div class="description__div">
               <p class="about__description PTBR">
@@ -179,7 +179,7 @@ const templates = {
           <section class="about section" id="about">
             <div class="about__container bd-grid">
               <div class="about__data">
-                <span class="section-subtitle">{SUCCESS: TRUE, MESSGE: INTRO FOUND}</span>
+                <span class="section-subtitle">{SUCCESS: TRUE, MESSAGE: INTRO FOUND}</span>
                 <h2 class="section-title EN">About me</h2>
                 <div class="description__div">
                   <p class="about__description EN">
