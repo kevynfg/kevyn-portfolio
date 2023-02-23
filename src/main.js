@@ -32,7 +32,7 @@ const templates = {
               <img src="./src/img/avatar_pic4.png" alt="Profile Avatar" />
             </div>
             <h1 class="home__title">Kevyn Gonçalves</h1>
-            <span class="home__profession">Front-end Developer e estudante de Análise e Desenvolvimento de Sistemas </span>
+            <span class="home__profession">Desenvolvedor de Software</span>
             <div class="home__social">
               <a href="https://www.linkedin.com/in/kevynfaria/" class="home__social-link"><i class="bx bxl-linkedin"></i></a>
               <a href="http://github.com/kevynfg" class="home__social-link"><i class="bx bxl-github"></i></a>
@@ -166,7 +166,7 @@ const templates = {
                   <img src="./src/img/avatar_pic4.png" alt="Profile Avatar" />
                 </div>
                 <h1 class="home__title">Kevyn Gonçalves</h1>
-                <span class="home__profession">Front-end Developer and System Analysis and Development student</span>
+                <span class="home__profession">Software Developer</span>
                 <div class="home__social">
                   <a href="https://www.linkedin.com/in/kevynfaria/" class="home__social-link"><i class="bx bxl-linkedin"></i></a>
                   <a href="http://github.com/kevynfg" class="home__social-link"><i class="bx bxl-github"></i></a>
