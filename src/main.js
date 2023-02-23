@@ -75,7 +75,7 @@ const templates = {
         <div class="education__container bd-grid">
           <div class="education__content">
             <div>
-              <h3 class="education__year">2020 - Previsão de Término: Junho/2022</h3>
+              <h3 class="education__year">2020 - 2023</h3>
               <span class="education__university">Universidade Estácio de Sá</span>
             </div>
   
@@ -209,7 +209,7 @@ const templates = {
             <div class="education__container bd-grid">
               <div class="education__content">
                 <div>
-                  <h3 class="education__year">2020 - Expected to end: June/2022</h3>
+                  <h3 class="education__year">2020 - 2023</h3>
                   <span class="education__university">Universidade Estácio de Sá</span>
                 </div>
       
